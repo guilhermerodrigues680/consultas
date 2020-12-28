@@ -18,11 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# XXX This file is only used by GitHub Pages, when deploying online
+# XXX This file is only used when working on your local machine, in development
+# XXX Remember that changing anything in this file NEEDS a full server restart to be applied
 # Checkout https://pages.github.com/versions/ for the list of Github Pages built-in plugins
 
-# XXX --------- Specific to GHP config ------------
-remote_theme: pmarsceill/just-the-docs@v0.3.3 # XXX Our Jekyll theme - See https://pmarsceill.github.io/just-the-docs/
+# XXX --------- Specific to local config ------------
+theme: 'just-the-docs' # XXX Our Jekyll theme - See https://pmarsceill.github.io/just-the-docs/
 
 title: Consulta
 email: your-email@example.com
